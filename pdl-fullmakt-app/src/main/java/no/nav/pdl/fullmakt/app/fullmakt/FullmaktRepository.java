@@ -9,8 +9,14 @@ import java.util.Optional;
 
 @Repository
 public interface FullmaktRepository extends JpaRepository<Fullmakt, Integer> {
-	List<Fullmakt> findAllByList(@Param("list") String listName);
 
-	Optional<Fullmakt> findByListAndCode(@Param("list") ListName list, @Param("code") String code);
 
+	List<Fullmakt> findAllByFullmaktsgiver(@Param("fullmaktsgiver") String fullmaktsgiver);
+	List<Fullmakt> findAllByFullmektig(@Param("fullmektig") String fullmektig);
+
+
+	List<Fullmakt> findAll();
+
+	void deleteByFullmaktId(@Param("fullmaktId") Long fullmaktId);
+	Optional<Fullmakt> findByFullmaktId(@Param("fullmaktId") Long fullmaktId);
 }

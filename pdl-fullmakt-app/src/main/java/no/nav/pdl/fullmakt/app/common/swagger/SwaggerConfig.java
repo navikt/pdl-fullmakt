@@ -32,7 +32,7 @@ public class SwaggerConfig {
     private ApiInfo apiInfo() {
         return new ApiInfo(
                 "PDL Fullmakt",
-                "Rest API for getting and posting information on PDL Fullmakt. We need a writer for this....",
+                "Rest API for getting and posting information on PDL Fullmakt.",
                 "1.0",
                 "Terms of service",
                 new Contact("NAV", "www.nav.no", "post@nav.no"),
