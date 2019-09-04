@@ -3,8 +3,9 @@ package no.nav.pdl.fullmakt.app.fullmakt;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import no.nav.pdl.fullmakt.app.AppStarter;
 import no.nav.pdl.fullmakt.app.common.exceptions.FullmaktNotFoundException;
-import no.nav.pdl.fullmakt.app.common.exceptions.ValidationException;
+//import no.nav.pdl.fullmakt.app.common.exceptions.ValidationException;
 import no.nav.pdl.fullmakt.app.common.utils.JsonUtils;
+import org.assertj.core.util.DateUtil;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -56,6 +57,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @ActiveProfiles("test")
 public class FullmaktControllerTest {
 
+
     private ObjectMapper objectMapper = JsonUtils.getObjectMapper();
 
     @Autowired
@@ -69,7 +71,7 @@ public class FullmaktControllerTest {
 
     @Before
     public void setUp() throws Exception {
-        FullmaktStub.initializeFullmakt();
+       // FullmaktStub.initializeFullmakt();
     }
 
     @Test
@@ -77,15 +79,44 @@ public class FullmaktControllerTest {
         MockHttpServletResponse response = mvc.perform(get("/fullmakt"))
                 .andReturn().getResponse();
 
-        HashMap<String, HashMap<String, String>> returnedFullmakt = objectMapper.readValue(response.getContentAsString(), HashMap.class);
+       // Fullmakt returnedFullmakt = objectMapper.readValue(response.getContentAsString(), Fullmakt.class);
 
         assertThat(response.getStatus(), is(HttpStatus.OK.value()));
-        assertThat(returnedFullmakt.size(), is(FullmaktService.fullmakter.size()));
-        assertThat(returnedFullmakt.get("PRODUCER").size(), is(3));
-        assertThat(returnedFullmakt.get("CATEGORY").size(), is(3));
-        assertThat(returnedFullmakt.get("SYSTEM").size(), is(2));
+        //assertThat(returnedFullmakt.size(), is(service.getAllFullmakt().size()));
+
     }
 
+
+    @Test
+    public void update_shouldUpdateFullmakt() throws Exception {
+        when(service.update(ArgumentMatchers.any())).thenAnswer(AdditionalAnswers.returnsFirstArg());
+
+        Fullmakt request =  Fullmakt.builder()
+                        .ednretAv("")
+                        .endret(DateUtil.now())
+                        .fullmaktId(1L)
+                        .opphoert(false)
+
+                        .fullmaktsgiver("123")
+                        .fullmektig("321")
+                .omraade("Område test")
+                        .gyldigFraOgMed(DateUtil.now())
+                        .gyldigTilOgMed(DateUtil.now())
+                        .registrert(DateUtil.now())
+                        .registrertAv("123")
+                        .build();
+
+        String inputJson = objectMapper.writeValueAsString(request);
+
+        mvc.perform(put("/fullmakt")
+                .contentType(MediaType.APPLICATION_JSON_UTF8_VALUE)
+                .content(inputJson))
+                .andExpect(status().isAccepted())
+                .andExpect(jsonPath("$.length()", is(11)));
+    }
+
+
+    /*
     @Test
     public void getFullmaktByListName_shouldReturnFullmaktForProducer() throws Exception {
         String uri = "/fullmakt/PRODUCER";
@@ -232,4 +263,5 @@ public class FullmaktControllerTest {
         assertThat(response.getStatus(), is(HttpStatus.OK.value()));
         verify(service).delete(ListName.PRODUCER, code);
     }
+    */
 }

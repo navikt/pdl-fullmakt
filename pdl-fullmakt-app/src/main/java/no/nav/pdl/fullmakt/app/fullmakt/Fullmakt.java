@@ -42,7 +42,7 @@ public class Fullmakt {
 	private String ednretAv;
 
 	@Column(name="OPPHOERT")
-	private Boolean Opphoert;
+	private Boolean opphoert;
 
 
 	@Column(name="FULLMAKTSGIVER", length = 20,  nullable = false)
@@ -50,6 +50,10 @@ public class Fullmakt {
 
 	@Column(name="FULLMEKTIG", length = 20,  nullable = false)
 	private String fullmektig;
+
+
+	@Column(name="OMRAADE", length = 100,  nullable = false)
+	private String omraade;
 
 	@Column(name="GYLDIG_FRA_OG_MED")
 	private Date gyldigFraOgMed;

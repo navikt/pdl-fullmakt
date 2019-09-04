@@ -39,6 +39,7 @@ public class PostgresTestContainer extends PostgreSQLContainer<PostgresTestConta
                     "spring.datasource.username=" + getInstance().getUsername(),
                     "spring.datasource.password=" + getInstance().getPassword()
             ).applyTo(configurableApplicationContext.getEnvironment());
+
         }
     }
 }

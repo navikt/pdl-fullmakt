@@ -74,7 +74,6 @@ public class FullmaktController {
 	}
 
 
-
 	@ApiOperation(value = "Get fullmakt for fullmaktId", tags = {"Fullmakt"})
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Fullmakt fetched", response = String.class),
