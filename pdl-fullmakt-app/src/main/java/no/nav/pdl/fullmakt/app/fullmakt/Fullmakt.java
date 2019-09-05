@@ -1,17 +1,15 @@
 package no.nav.pdl.fullmakt.app.fullmakt;
 
 
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-		import lombok.NoArgsConstructor;
-		import org.hibernate.annotations.GenericGenerator;
-		import org.hibernate.annotations.Parameter;
+import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.Parameter;
 
+import javax.persistence.*;
 import java.util.Date;
-import java.util.UUID;
-		import javax.persistence.*;
 
 @Entity
 @Table(name = "FULLMAKT")
@@ -28,7 +26,6 @@ public class Fullmakt {
 	@Column(name="FULLMAKT_ID", nullable = false, updatable = false, unique = true)
 	private Long fullmaktId;
 
-
 	@Column(name="REGISTRERT",  nullable = false)
 	private Date registrert;
 
@@ -44,13 +41,11 @@ public class Fullmakt {
 	@Column(name="OPPHOERT")
 	private Boolean opphoert;
 
-
 	@Column(name="FULLMAKTSGIVER", length = 20,  nullable = false)
 	private String fullmaktsgiver;
 
 	@Column(name="FULLMEKTIG", length = 20,  nullable = false)
 	private String fullmektig;
-
 
 	@Column(name="OMRAADE", length = 100,  nullable = false)
 	private String omraade;
