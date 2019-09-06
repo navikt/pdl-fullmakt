@@ -62,6 +62,7 @@ workflows:
           build-and-push-docker-image: false
           repo: navikt/pdl-fullmakt
           image: navikt/pdl-fullmakt
+          github-app-id: 40456
           nais-template: naiserator-preprod.yaml
           environment: dev-sbs
           team: teamdatajegerne
@@ -77,6 +78,7 @@ workflows:
           build-and-push-docker-image: false
           repo: navikt/pdl-fullmakt
           image: navikt/pdl-fullmakt
+          github-app-id: 40456
           nais-template: naiserator-prod.yaml
           environment: prod-sbs
           team: teamdatajegerne
