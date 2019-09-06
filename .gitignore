@@ -61,7 +61,7 @@ hs_err_pid*
 
 # IntelliJ project files
 .idea
-.idea/
+.idea/*
 *.iml
 out
 gen### Maven template

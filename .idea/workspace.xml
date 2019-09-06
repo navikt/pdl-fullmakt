@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db84a01-60a1-4d2d-a142-2b212d8c7ea3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_config_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_utils_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_5_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_8_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_kafka_spring_kafka_2_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_1_9_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_7_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/pdl-fullmakt-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/pdl-fullmakt-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/target/classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/target/classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/pdl-fullmakt-test-component.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/pdl-fullmakt-test-component.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/target/test-classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/target/test-classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktControllerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/target/test-classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/target/test-classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-integration/pdl-fullmakt-test-integration.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-integration/pdl-fullmakt-test-integration.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/pdl-fullmakt-test/data-catalog-backend-test-integration/target/" />
@@ -81,17 +48,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-integration/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -115,7 +82,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
@@ -235,7 +202,6 @@
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/db/migration/V1.0__initialize_schema_and_tables.sql" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/CommonConfig.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/exceptions/PdlFullmaktTechnicalException.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/tokensupport/JwtTokenGenerator.java" />
@@ -248,6 +214,7 @@
         <option value="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktControllerTest.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -285,276 +252,7 @@
             <path>
               <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
               <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="nais" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="tokensupport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="fullmakt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="fullmaktEndringslogg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="migration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
               <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="nais" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-component" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="fullmakt" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-integration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test" type="462c0819:PsiDirectoryNode" />
-              <item name="pdl-fullmakt-test-integration" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="fullmakt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
@@ -713,14 +411,11 @@
       <workItem from="1567169429999" duration="681000" />
       <workItem from="1567170120053" duration="836000" />
       <workItem from="1567170998285" duration="27029000" />
-      <workItem from="1567579895284" duration="20405000" />
+      <workItem from="1567579895284" duration="20684000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_pdl-fullmakt-test-integration - 2019.09.06 at 10h 38m 21s.xml">
-      <configuration name="All in pdl-fullmakt-test-integration" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_pdl-fullmakt-test-integration - 2019.09.06 at 10h 39m 56s.xml">
       <configuration name="All in pdl-fullmakt-test-integration" configurationId="JUnit" />
     </history-entry>
@@ -748,15 +443,18 @@
     <history-entry file="All_in_pdl-fullmakt-test-component - 2019.09.06 at 11h 08m 08s.xml">
       <configuration name="All in pdl-fullmakt-test-component" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_pdl-fullmakt-test-component - 2019.09.06 at 11h 10m 26s.xml">
+      <configuration name="All in pdl-fullmakt-test-component" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55691000" />
+    <option name="totallyTimeSpent" value="55970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1548" height="947" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31142098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31142098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -767,7 +465,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49707603" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38011697" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37777779" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -775,7 +473,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5064328" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5064328" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32748538" />
       <window_info anchor="bottom" id="Spring" order="13" />
@@ -959,13 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1260,6 +951,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
         </state>
       </provider>
     </entry>
