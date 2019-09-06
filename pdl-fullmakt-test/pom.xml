@@ -16,6 +16,6 @@
 
     <modules>
         <module>pdl-fullmakt-test-component</module>
-        <module>pdl-fullmakt-test-integration</module>
+       <!-- <module>pdl-fullmakt-test-integration</module>-->
     </modules>
 </project>
