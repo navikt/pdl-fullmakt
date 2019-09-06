@@ -4,11 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.GenericGenerator;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -20,6 +18,12 @@ import java.util.Date;
 public class FullmaktEndringslogg {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_fullmakt_endringslogg")
+    @GenericGenerator(name = "seq_fullmakt_endringslogg", strategy = "org.hibernate.id.enhanced.SequenceStyleGenerator",
+            parameters = {@org.hibernate.annotations.Parameter(name = "sequence_name", value = "SEQ_FULLMAKT_ENDRINGSLOGG")})
+    @Column(name="FULLMAKT_ENDRINGSLOGG_ID", nullable = false, updatable = false, unique = true)
+    private Long fullmaktEndringsloggId;
+
     @Column(name="FULLMAKT_ID", nullable = false, updatable = false)
     private Long fullmaktId;
 

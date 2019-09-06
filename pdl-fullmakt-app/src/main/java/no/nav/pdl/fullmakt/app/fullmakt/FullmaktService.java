@@ -68,12 +68,26 @@ public class FullmaktService {
 		return repository.save(request);
 	}
 
+	@Transactional
 	public void delete(Long fullmaktId) {
 		Optional<Fullmakt> toDelete = repository.findByFullmaktId(fullmaktId);
 		if (toDelete.isPresent()) {
 			toDelete.get().setOpphoert(true);
-			ObjectMapper mapper = new ObjectMapper();
-			fullmaktEndringslogg.save(mapper.convertValue(toDelete, FullmaktEndringslogg.class));
+			FullmaktEndringslogg fullmaktEndringslog = FullmaktEndringslogg.builder()
+					.fullmaktId(toDelete.get().getFullmaktId())
+					.ednretAv(toDelete.get().getEdnretAv())
+					.endret(toDelete.get().getEndret())
+					.registrert(toDelete.get().getRegistrert())
+					.registrertAv(toDelete.get().getRegistrertAv())
+					.opphoert(true)
+					.fullmaktsgiver(toDelete.get().getFullmaktsgiver())
+					.fullmektig(toDelete.get().getFullmektig())
+					.omraade(toDelete.get().getOmraade())
+					.gyldigFraOgMed(toDelete.get().getGyldigFraOgMed())
+					.gyldigTilOgMed(toDelete.get().getGyldigTilOgMed())
+					.build();
+
+			fullmaktEndringslogg.save(fullmaktEndringslog);
 			repository.deleteByFullmaktId(fullmaktId);
 		} else {
 			log.error("Cannot find a fullmakt to delete with fullmaktId={} ", fullmaktId);
