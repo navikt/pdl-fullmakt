@@ -64,7 +64,7 @@ workflows:
           image: navikt/pdl-fullmakt
           github-app-id: 40456
           nais-template: naiserator-preprod.yaml
-          environment: dev-sbs
+          environment: dev-fss
           team: pdl-fullmakt
           requires:
             - build_docker_image
@@ -80,7 +80,7 @@ workflows:
           image: navikt/pdl-fullmakt
           github-app-id: 40456
           nais-template: naiserator-prod.yaml
-          environment: prod-sbs
+          environment: prod-fss
           team: pdl-fullmakt
           requires:
             - build_docker_image
