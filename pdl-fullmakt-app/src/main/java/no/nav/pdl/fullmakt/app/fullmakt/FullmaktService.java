@@ -1,10 +1,10 @@
 package no.nav.pdl.fullmakt.app.fullmakt;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import no.nav.pdl.fullmakt.app.common.exceptions.FullmaktNotFoundException;
 import no.nav.pdl.fullmakt.app.fullmaktEndringslogg.FullmaktEndringslogg;
 import no.nav.pdl.fullmakt.app.fullmaktEndringslogg.FullmaktEndringsloggRepository;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

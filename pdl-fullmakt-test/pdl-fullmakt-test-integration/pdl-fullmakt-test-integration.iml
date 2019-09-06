@@ -42,6 +42,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.data:spring-data-jpa:2.1.10.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.data:spring-data-commons:2.1.10.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-orm:5.1.9.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-aspects:5.1.9.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-web:2.1.7.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework.boot:spring-boot-starter-json:2.1.7.RELEASE" level="project" />
@@ -99,30 +100,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.jsonwebtoken:jjwt-jackson:0.10.7" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.9" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.kafka:spring-kafka:2.2.8.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-messaging:5.1.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.springframework.retry:spring-retry:1.2.4.RELEASE" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.kafka:kafka-clients:2.0.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.lz4:lz4-java:1.4.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.xerial.snappy:snappy-java:1.1.7.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.confluent:kafka-avro-serializer:5.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.avro:avro:1.8.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.13" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.13" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.thoughtworks.paranamer:paranamer:2.7" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-compress:1.18" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.tukaani:xz:1.5" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.confluent:kafka-schema-registry-client:5.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.confluent:common-config:5.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.confluent:common-utils:5.3.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.zookeeper:zookeeper:3.4.14" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.github.spotbugs:spotbugs-annotations:3.1.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.google.code.findbugs:jsr305:3.0.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: jline:jline:0.9.94" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.apache.yetus:audience-annotations:0.5.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.netty:netty:3.10.6.Final" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: com.101tec:zkclient:0.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.micrometer:micrometer-registry-prometheus:1.1.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.prometheus:simpleclient_common:0.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.prometheus:simpleclient_hotspot:0.6.0" level="project" />
@@ -164,6 +141,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.testcontainers:database-commons:1.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testcontainers:testcontainers:1.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.jetbrains:annotations:17.0.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-compress:1.18" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.rnorth.duct-tape:duct-tape:1.0.8" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.rnorth.visible-assertions:visible-assertions:2.1.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:jna:4.5.2" level="project" />
