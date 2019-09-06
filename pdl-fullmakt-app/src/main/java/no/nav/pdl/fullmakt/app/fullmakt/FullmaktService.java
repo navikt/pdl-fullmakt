@@ -52,21 +52,15 @@ public class FullmaktService {
 				"Cannot find fullmakt with fullmaktId=%s", fullmaktId));
 	}
 
-    @Transactional
+	@Transactional
 	public Fullmakt save(Fullmakt request) {
 		Fullmakt fullmakt = repository.save(request);
 		ObjectMapper mapper = new ObjectMapper();
-		fullmaktEndringslogg.save( mapper.convertValue(fullmakt, FullmaktEndringslogg.class));
+		fullmaktEndringslogg.save(mapper.convertValue(fullmakt, FullmaktEndringslogg.class));
 
 		return fullmakt;
 	}
 
-	@Transactional
-	public Fullmakt update(Fullmakt request) {
-		 ObjectMapper mapper = new ObjectMapper();
-		 fullmaktEndringslogg.save( mapper.convertValue(request, FullmaktEndringslogg.class));
-		return repository.save(request);
-	}
 
 	@Transactional
 	public void delete(Long fullmaktId) {

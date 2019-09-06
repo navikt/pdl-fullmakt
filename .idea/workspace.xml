@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9db84a01-60a1-4d2d-a142-2b212d8c7ea3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/db/migration/V1.0__initialize_schema_and_tables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/db/migration/V1.0__initialize_schema_and_tables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/target/classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/target/classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdl-fullmakt-app/target/classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.class" beforeDir="false" afterPath="$PROJECT_DIR$/pdl-fullmakt-app/target/classes/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/pdl-fullmakt-test/data-catalog-backend-test-integration/target/" />
@@ -26,10 +29,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktRepository.java">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringsloggRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,23 +41,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringsloggRepository.java">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state>
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
-              <folding>
+                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
@@ -71,21 +62,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="108" selection-start-line="108" selection-end-line="108" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/CommonConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="215">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,35 +73,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
+            <state relative-caret-position="276">
+              <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/Fullmakt.java">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/StreamUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="26" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-5">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/JsonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/FlywayConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/Constants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/CollectionDifference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -166,6 +166,7 @@
       <find>setUsername</find>
       <find>password</find>
       <find>spring</find>
+      <find>up</find>
     </findStrings>
     <replaceStrings>
       <replace>pdl.fullmakt</replace>
@@ -205,12 +206,10 @@
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/swagger/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktRepository.java" />
-        <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktServiceTest.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/PostgresTestContainer.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktStub.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-test/pdl-fullmakt-test-component/src/test/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktControllerTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/CommonConfig.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/application-local.properties" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/Fullmakt.java" />
@@ -218,6 +217,8 @@
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/db/migration/V1.0__initialize_schema_and_tables.sql" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java" />
         <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java" />
+        <option value="$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -291,6 +292,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pdl-fullmakt" type="462c0819:PsiDirectoryNode" />
+              <item name="pdl-fullmakt-app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pdl-fullmakt" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +572,7 @@
       <workItem from="1567169429999" duration="681000" />
       <workItem from="1567170120053" duration="836000" />
       <workItem from="1567170998285" duration="27029000" />
-      <workItem from="1567579895284" duration="15502000" />
+      <workItem from="1567579895284" duration="16505000" />
     </task>
     <servers />
   </component>
@@ -597,7 +609,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50788000" />
+    <option name="totallyTimeSpent" value="51791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1548" height="947" extended-state="0" />
@@ -614,7 +626,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982457" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29239765" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29122806" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37890294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,9 +634,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.45497075" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22339182" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827005" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32748538" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -647,27 +659,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java</url>
-          <line>41</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java</url>
-          <line>77</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java</url>
-          <line>96</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java</url>
-          <line>120</line>
-          <properties />
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java</url>
@@ -686,12 +686,6 @@
           <line>83</line>
           <properties />
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -748,51 +742,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/FlywayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/StreamUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/swagger/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.10.RELEASE/spring-data-jpa-2.1.10.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1008,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1050,67 +992,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/JpaConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="100" column="50" selection-start-line="100" selection-start-column="50" selection-end-line="100" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/CommonConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringsloggRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/Fullmakt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="26" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1121,10 +1006,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java">
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/Fullmakt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1133,11 +1038,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmakt/FullmaktService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+        <state relative-caret-position="-43">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringslogg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="35" column="18" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/fullmaktEndringslogg/FullmaktEndringsloggRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/JpaConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/CommonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/FlywayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/CollectionDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdl-fullmakt-app/src/main/java/no/nav/pdl/fullmakt/app/common/utils/StreamUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
         </state>
       </provider>
     </entry>
