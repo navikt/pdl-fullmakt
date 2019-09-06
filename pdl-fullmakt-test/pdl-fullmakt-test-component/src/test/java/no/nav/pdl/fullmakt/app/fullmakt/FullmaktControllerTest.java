@@ -1,10 +1,11 @@
 package no.nav.pdl.fullmakt.app.fullmakt;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import no.nav.pdl.fullmakt.app.AppStarter;
 import no.nav.pdl.fullmakt.app.common.exceptions.FullmaktNotFoundException;
 //import no.nav.pdl.fullmakt.app.common.exceptions.ValidationException;
-import no.nav.pdl.fullmakt.app.common.utils.JsonUtils;
+// import no.nav.pdl.fullmakt.app.common.utils.JsonUtils;
 import org.assertj.core.util.DateUtil;
 import org.junit.Before;
 import org.junit.Rule;
@@ -26,6 +27,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -58,7 +61,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 public class FullmaktControllerTest {
 
 
-    private ObjectMapper objectMapper = JsonUtils.getObjectMapper();
+    //  private ObjectMapper objectMapper = JsonUtils.getObjectMapper();
 
     @Autowired
     private MockMvc mvc;
@@ -71,7 +74,7 @@ public class FullmaktControllerTest {
 
     @Before
     public void setUp() throws Exception {
-       // FullmaktStub.initializeFullmakt();
+        // FullmaktStub.initializeFullmakt();
     }
 
     @Test
@@ -79,7 +82,7 @@ public class FullmaktControllerTest {
         MockHttpServletResponse response = mvc.perform(get("/fullmakt"))
                 .andReturn().getResponse();
 
-       // Fullmakt returnedFullmakt = objectMapper.readValue(response.getContentAsString(), Fullmakt.class);
+        // Fullmakt returnedFullmakt = objectMapper.readValue(response.getContentAsString(), Fullmakt.class);
 
         assertThat(response.getStatus(), is(HttpStatus.OK.value()));
         //assertThat(returnedFullmakt.size(), is(service.getAllFullmakt().size()));
@@ -89,30 +92,34 @@ public class FullmaktControllerTest {
 
     @Test
     public void update_shouldUpdateFullmakt() throws Exception {
-        when(service.update(ArgumentMatchers.any())).thenAnswer(AdditionalAnswers.returnsFirstArg());
+        when(service.save(ArgumentMatchers.any())).thenAnswer(AdditionalAnswers.returnsFirstArg());
 
         Fullmakt request =  Fullmakt.builder()
-                        .ednretAv("")
-                        .endret(DateUtil.now())
-                        .fullmaktId(1L)
-                        .opphoert(false)
+                .ednretAv("")
+                .endret(DateUtil.now())
+                .fullmaktId(1L)
+                .opphoert(false)
 
-                        .fullmaktsgiver("123")
-                        .fullmektig("321")
+                .fullmaktsgiver("123")
+                .fullmektig("321")
                 .omraade("Område test")
-                        .gyldigFraOgMed(DateUtil.now())
-                        .gyldigTilOgMed(DateUtil.now())
-                        .registrert(DateUtil.now())
-                        .registrertAv("123")
-                        .build();
-
-        String inputJson = objectMapper.writeValueAsString(request);
+                .gyldigFraOgMed(DateUtil.now())
+                .gyldigTilOgMed(DateUtil.now())
+                .registrert(DateUtil.now())
+                .registrertAv("123")
+                .build();
+        String inputJson = getValueAsString(request);
 
         mvc.perform(put("/fullmakt")
                 .contentType(MediaType.APPLICATION_JSON_UTF8_VALUE)
                 .content(inputJson))
                 .andExpect(status().isAccepted())
                 .andExpect(jsonPath("$.length()", is(11)));
+    }
+
+    private String getValueAsString(Fullmakt request) throws JsonProcessingException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.writeValueAsString(request);
     }
 
 

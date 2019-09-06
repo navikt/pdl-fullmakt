@@ -105,17 +105,6 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!-- Kafka -->
-		<dependency>
-			<groupId>org.springframework.kafka</groupId>
-			<artifactId>spring-kafka</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.confluent</groupId>
-			<artifactId>kafka-avro-serializer</artifactId>
-			<version>${confluent.version}</version>
-		</dependency>
-
 		<!-- Prometheus metrics-->
 		<dependency>
 			<groupId>io.micrometer</groupId>
