@@ -23,7 +23,7 @@ services:
     ports:
       - 8081:8080
     volumes:
-      - ./travis/pdl-fullmakt-private-key.pem:/etc/secret/pdl-fullmakt
+      - ./travis/pdlfullmakt-private-key.pem:/etc/secret/pdl-fullmakt
 
 volumes:
   postgres:

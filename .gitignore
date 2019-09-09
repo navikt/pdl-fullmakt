@@ -78,5 +78,5 @@ buildNumber.properties
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
 
-/travis/pdl-fullmakt-private-key.pk8
-/.circleci/pdl-fullmakt-private-key.pem
+/travis/pdl-fullmaktprivate-key.pk8
+/.circleci/pdlfullmakt-private-key.pem
