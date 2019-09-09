@@ -65,7 +65,7 @@ workflows:
           github-app-id: 40456
           nais-template: naiserator-preprod.yaml
           environment: dev-fss
-          team: pdl-fullmakt
+          team: pdlfullmakt
           requires:
             - build_docker_image
           filters:
@@ -81,7 +81,7 @@ workflows:
           github-app-id: 40456
           nais-template: naiserator-prod.yaml
           environment: prod-fss
-          team: pdl-fullmakt
+          team: pdlfullmakt
           requires:
             - build_docker_image
           filters:
