@@ -4,7 +4,7 @@ metadata:
   name: pdlfullmakt
   namespace: default
   labels:
-    team: {{team}}
+    team: pdlfullmakt
 spec:
   image: {{version}}
   port: 8080
