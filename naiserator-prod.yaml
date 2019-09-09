@@ -1,10 +1,10 @@
 apiVersion: "nais.io/v1alpha1"
 kind: "Application"
 metadata:
-  name: pdl-fullmakt
+  name: pdlfullmakt
   namespace: default
   labels:
-    team: pdlfullmakt
+    team: {{team}}
 spec:
   image: {{version}}
   port: 8080
