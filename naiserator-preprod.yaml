@@ -9,7 +9,7 @@ spec:
   image: {{version}}
   port: 8080
   ingresses:
-    - "https://pdl-fullmakt.nais.oera-q.local"
+    - "https://pdl-fullmakt.nais.preprod.local"
     - "https://pdl-fullmakt-q0.nav.no"
   replicas:
     min: 1
