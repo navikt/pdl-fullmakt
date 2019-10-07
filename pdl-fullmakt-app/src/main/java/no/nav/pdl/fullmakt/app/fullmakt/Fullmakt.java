@@ -50,10 +50,10 @@ public class Fullmakt {
 	@Column(name="OMRAADE", length = 100,  nullable = false)
 	private String omraade;
 
-	@Column(name="GYLDIG_FRA_OG_MED")
+	@Column(name="GYLDIG_FRA_OG_MED",  nullable = false)
 	private Date gyldigFraOgMed;
 
-	@Column(name="GYLDIG_TIL_OG_MED")
+	@Column(name="GYLDIG_TIL_OG_MED",  nullable = false)
 	private Date gyldigTilOgMed;
 
 
