@@ -14,7 +14,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin
-@RequestMapping("/fullmakt/omraade")
+@RequestMapping("/omraade")
 @Api(value = "Område", description = "REST API for område", tags = { "Omraade" })
 public class OmraadeController {
 
