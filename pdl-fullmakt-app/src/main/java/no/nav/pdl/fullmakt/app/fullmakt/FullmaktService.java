@@ -17,7 +17,6 @@ public class FullmaktService {
 
 	private FullmaktRepository repository;
 
-
 	private FullmaktEndringsloggRepository fullmaktEndringslogg;
 
 	public FullmaktService(FullmaktRepository repository, FullmaktEndringsloggRepository fullmaktEndringslogg) {

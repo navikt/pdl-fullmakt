@@ -37,7 +37,7 @@ public abstract class IntegrationTestBase {
     protected TransactionTemplate transactionTemplate;
 
     protected void policyStubbing() {
-        wiremock.stubFor(get(urlPathEqualTo("/api/fullmakt"))
+        wiremock.stubFor(get(urlPathEqualTo("/api"))
                 .willReturn(aResponse().withStatus(HttpStatus.OK.value())
                         .withHeader(ContentTypeHeader.KEY, "application/json")
                         .withBody("{}")
