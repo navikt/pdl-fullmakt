@@ -105,10 +105,11 @@ public class FullmaktController {
             @ApiResponse(code = 500, message = "Internal server error")})
     @DeleteMapping("/fullmakt/{fullmaktId}")
     @Transactional
-    public void delete(@PathVariable Long fullmaktId) {
+    public String delete(@PathVariable Long fullmaktId) {
         logger.info("Received a request to delete fullmaktId={} ", fullmaktId);
         service.delete(fullmaktId);
         logger.info("Deleted fullmaktId={} ", fullmaktId);
+        return "Successfully deleted fullmaktId = " + fullmaktId.toString();
     }
 
 }
