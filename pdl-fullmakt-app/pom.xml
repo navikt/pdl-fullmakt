@@ -25,6 +25,23 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>no.nav.freg</groupId>
+			<artifactId>freg-security-oidc</artifactId>
+			<version>${freg-security.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>no.nav.freg</groupId>
+			<artifactId>abac-spring</artifactId>
+			<version>${abac.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 
@@ -61,6 +78,18 @@
 			<groupId>com.vladmihalcea</groupId>
 			<artifactId>hibernate-types-52</artifactId>
 			<version>${hibernate-types-52.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>no.nav.person</groupId>
+			<artifactId>person-utils-audit</artifactId>
+			<version>${person-utils.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>no.nav.tjenester</groupId>
+			<artifactId>person-api-endringsmelding-v1</artifactId>
+			<version>${person-api-endringsmelding-v1.version}</version>
 		</dependency>
 
 		<!-- GitHub -->

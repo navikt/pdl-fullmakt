@@ -30,6 +30,11 @@
         <org.eclipse.egit.github.core.version>5.4.0.201906121030-r</org.eclipse.egit.github.core.version>
         <confluent.version>5.3.0</confluent.version>
 
+        <abac.version>2.1.2</abac.version>
+        <freg-security.version>3.3.5</freg-security.version>
+        <person-utils.version>1.39.0</person-utils.version>
+        <person-api-endringsmelding-v1.version>1.16.2</person-api-endringsmelding-v1.version>
+
         <!-- Test -->
         <awaitability.version>3.1.6</awaitability.version>
         <testcontainer.version>1.12.0</testcontainer.version>

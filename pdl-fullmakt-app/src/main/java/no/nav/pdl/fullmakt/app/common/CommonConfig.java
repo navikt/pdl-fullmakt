@@ -13,18 +13,18 @@ import org.springframework.web.client.RestTemplate;
 public class CommonConfig {
 
 
-	@Bean
-	public RestTemplate restTemplate(RestTemplateBuilder builder) {
-		return builder.build();
-	}
+    @Bean
+    public RestTemplate restTemplate(RestTemplateBuilder builder) {
+        return builder.build();
+    }
 
 
-	/**
-	 * Make sure spring uses the defaultRegistry
-	 */
-	@Bean
-	public CollectorRegistry collectorRegistry() {
-		DefaultExports.initialize();
-		return CollectorRegistry.defaultRegistry;
-	}
+    /**
+     * Make sure spring uses the defaultRegistry
+     */
+    @Bean
+    public CollectorRegistry collectorRegistry() {
+        DefaultExports.initialize();
+        return CollectorRegistry.defaultRegistry;
+    }
 }
