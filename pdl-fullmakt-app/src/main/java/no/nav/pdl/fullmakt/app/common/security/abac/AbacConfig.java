@@ -37,7 +37,7 @@ public class AbacConfig {
 
     @Bean
     AbacAttributeLocator fellesDomeneLocator() {
-        return new ResolvingAbacAttributeLocator(NavAttributter.RESOURCE_FELLES_DOMENE, () -> "navperson");
+        return new ResolvingAbacAttributeLocator(NavAttributter.RESOURCE_FELLES_DOMENE, () -> "eksternbruker");
     }
 
     @Bean
