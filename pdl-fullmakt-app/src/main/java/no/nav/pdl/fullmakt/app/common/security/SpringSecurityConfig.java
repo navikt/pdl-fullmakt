@@ -23,7 +23,7 @@ public class SpringSecurityConfig {
                         .csrf().disable()
                         .cors().disable()
                         .authorizeRequests()
-                        .antMatchers(HttpMethod.OPTIONS, "/api/v1/**").permitAll()
+                        .antMatchers(HttpMethod.OPTIONS, "/api/**").permitAll()
                         .anyRequest().authenticated()
                         .and()
                         .headers().contentSecurityPolicy("script-src 'self'");

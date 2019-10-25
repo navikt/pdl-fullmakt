@@ -1,0 +1,41 @@
+#
+#   N A I S
+#
+APP_NAME: pdl-fullmakt
+APP_VERSION: 1
+FASIT_ENVIRONMENT_NAME: localhost
+
+#
+#   A B A C
+#
+no.nav.abac:
+  url: https://wasapp-q2.adeo.no/asm-pdp/authorize
+  systemuser:
+    username: ${app.credential.username}
+    password: ${app.credential.password}
+
+#
+#   A P P
+#
+app:
+  credential.username: srvpdl-fullmakt
+
+#
+#   S T S
+#
+sts.baseUrl: https://security-token-service.nais.preprod.local/rest/v1/sts/token
+
+#
+#   S E C U R I T Y
+#
+freg.security.oidc.idp:
+  openAm:
+    issuerUrl: https://isso-q.adeo.no:443/isso/oauth2
+    jwksUrl: https://isso-q.adeo.no/isso/oauth2/connect/jwk_uri
+  navSts:
+    issuerUrl: https://security-token-service.nais.preprod.local
+    jwksUrl: https://security-token-service.nais.preprod.local/rest/v1/sts/jwks
+  azureB2c:
+    issuerUrl: https://login.microsoftonline.com/d38f25aa-eab8-4c50-9f28-ebf92c1256f2/v2.0/
+    jwksUrl: https://login.microsoftonline.com/navtestb2c.onmicrosoft.com/discovery/v2.0/keys?p=b2c_1a_idporten_ver1
+    proxyAddress: webproxy-utvikler.nav.no:8088
