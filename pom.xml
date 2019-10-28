@@ -15,12 +15,18 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <description>Fullmakt for NAV.</description>
+
     <modules>
         <module>pdl-fullmakt-app</module>
         <module>pdl-fullmakt-test</module>
     </modules>
 
     <properties>
+        <application.name>pdl-fullmakt</application.name>
+        <application.version>${project.version}</application.version>
+        <java.version>11</java.version>
+
         <start-class>no.nav.pdl.fullmakt.app.AppStarter</start-class>
         <springfox.version>2.9.2</springfox.version>
         <jjwt.version>0.10.7</jjwt.version>
