@@ -104,7 +104,43 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <!-- NAV repos -->
+        <repository>
+            <id>m2internal</id>
+            <name>NAV Maven2 Internal Repository</name>
+            <url>http://maven.adeo.no/nexus/content/repositories/m2internal</url>
+        </repository>
+        <snapshotRepository>
+            <id>m2snapshot</id>
+            <name>NAV Maven2 Snapshot Repository</name>
+            <url>http://maven.adeo.no/nexus/content/repositories/m2snapshot</url>
+            <uniqueVersion>false</uniqueVersion>
+        </snapshotRepository>
+    </distributionManagement>
+
 	<repositories>
+        <repository>
+            <id>m2internal</id>
+            <name>NAV Maven2 Internal Repository</name>
+            <url>http://maven.adeo.no/nexus/content/repositories/m2internal</url>
+        </repository>
+        <repository>
+            <id>spring-snapshots</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>spring-milestones</id>
+            <name>Spring Milestones</name>
+            <url>https://repo.spring.io/milestone</url>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
 		<repository>
 			<id>repo.eclipse.org</id>
 			<name>EGit Maven Repository - Releases</name>
