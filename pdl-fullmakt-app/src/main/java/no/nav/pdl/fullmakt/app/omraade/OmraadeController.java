@@ -30,7 +30,7 @@ public class OmraadeController {
             @ApiResponse(code = 404, message = "Fant ikke områder"),
             @ApiResponse(code = 500, message = "Internal server error")})
     @GetMapping()
-    public List<Omraade> getAllOmraade() {
+    public Object getAllOmraade() {
         logger.info("Fikk en forespørsel om alle områder");
         return service.getAllOmraade();
     }
