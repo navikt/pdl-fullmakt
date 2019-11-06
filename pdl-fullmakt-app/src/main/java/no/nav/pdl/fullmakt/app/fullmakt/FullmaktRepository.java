@@ -10,9 +10,9 @@ import java.util.Optional;
 @Repository
 public interface FullmaktRepository extends JpaRepository<Fullmakt, Integer> {
 
-	List<Fullmakt> findAllByFullmaktsgiver(@Param("fullmaktsgiver") String fullmaktsgiver);
+	List<Fullmakt> findAllByFullmaktsgiverOrderByFullmaktIdDesc(@Param("fullmaktsgiver") String fullmaktsgiver);
 
-	List<Fullmakt> findAllByFullmektig(@Param("fullmektig") String fullmektig);
+	List<Fullmakt> findAllByFullmektigOrderByFullmaktIdDesc(@Param("fullmektig") String fullmektig);
 
 	List<Fullmakt> findAll();
 

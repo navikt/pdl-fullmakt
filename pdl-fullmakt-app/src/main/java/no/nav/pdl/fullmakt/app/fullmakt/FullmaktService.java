@@ -31,12 +31,12 @@ public class FullmaktService {
 
 
 	public  List<Fullmakt> getFullmaktForFullmaktsgiver( String fullmaktsgiver) {
-		return repository.findAllByFullmaktsgiver(fullmaktsgiver);
+		return repository.findAllByFullmaktsgiverOrderByFullmaktIdDesc(fullmaktsgiver);
 	}
 
 
 	public  List<Fullmakt> getFullmaktForFullmektig( String fullmektig) {
-		return repository.findAllByFullmektig(fullmektig);
+		return repository.findAllByFullmektigOrderByFullmaktIdDesc(fullmektig);
 	}
 
 
